@@ -1,1 +1,154 @@
-/* Write your CSS here! */
+* {
+    margin-top: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-image: url(images/home-toolset.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    opacity: 0.9;
+}
+
+.nav-menu {
+    float: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-menu li{
+    display: inline-block;
+}
+
+.nav-menu a {
+    color:rgb(1, 22, 24);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Veranda", "sans-serif";
+    font-size: 25px;
+}
+
+.nav-menu a:hover {
+    
+    background-color: blue;
+    color: white;
+    transition: 0.8s;
+
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-top: 100px;
+    
+}
+
+
+.btn {
+  
+   border: none;
+   background-color: transparent;
+   color: black;
+   padding: 16px 32px;
+   text-align: left;
+   font-size: 25px;
+   margin: none;
+   transition: 0.8s;
+}
+
+ .btn:hover {
+    background-color: Blue;
+    color: white;
+}
+
+.btn2 {
+  
+    border: none;
+    background-color: transparent;
+    color: black;
+    padding: 16px 32px;
+    text-align: left;
+    font-size: 25px;
+    margin: none;
+    transition: 0.8s;
+ }
+ 
+  .btn2:hover {
+     background-color: Blue;
+     color: white;
+  }
+
+.main {
+    border: blue;
+    max-width: 1024x;
+    margin: auto;
+    clear: both;
+    font-family: sans-serif;
+    display: flex;
+    
+
+}
+
+p {
+    
+    margin-right: 30%;
+}
+
+.container img {
+    margin: 20px 60px;
+}
+
+.container img {
+    transition: 1s;
+    filter: grayscale(100%);
+    padding: 15px;
+    width: 200px;
+}
+
+.container img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.container img {
+    margin: 20px 60px;
+}
+
+.container img {
+    transition: 1s;
+    filter: grayscale(100%);
+    padding: 15px;
+    width: 200px;
+}
+
+.container img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+img {
+    display: inline-block;
+    width: inherit;
+    margin: auto;
+    border: 80px;
+}
+
+.container {
+    background-color: rgb(178, 197, 202);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
